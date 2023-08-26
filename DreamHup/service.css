@@ -1,0 +1,61 @@
+.image{
+    background-image:
+    linear-gradient(to bottom, rgba(56, 73, 169, 0.52),  blue),
+    url("css/img/1.jpg") !important;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.icon{
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+.info h3{
+    color: #3a6cf4;
+    font-size: 1.0em;
+    font-weight: 700;
+    margin: 10px;
+}
+.info{
+    text-align: center;
+}
+.card button{
+    background-color:#3a6cf4;
+    border: none;
+    padding: 15px 30px ;
+    margin-top: 35px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px;
+}
+.card button a{
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+.card button:hover{
+    background-color: rgb(156, 156, 249);
+    border:  1px solid blue;
+    cursor: pointer;
+}

@@ -1,0 +1,222 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+html {
+   scroll-behavior: smooth;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navpara {
+   background-image: linear-gradient(to right, rgb(4, 4, 209), rgb(114, 220, 247));
+   width: 100%;
+   height: 50px;
+   position: fixed;
+}
+.navpara p {
+   color: white;
+   padding-left: 130px;
+   padding-top: 12px;
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+}
+.navpararight {
+   font-family: 'Roboto', sans-serif;
+   float: right;
+   position: absolute;
+   top: 1px;
+   right: 100px;
+}
+.navpararight p {
+   color: white;
+   font-size: 17px;
+}
+.navpararight p i {
+   padding-right: 10px;
+}
+.navpararight:hover {
+   cursor: pointer;
+}
+.list li,
+.logo {
+   display: inline-block;
+}
+.logo {
+   padding-right: 100px;
+   margin-left: 100px;
+   padding-top: 10px;
+}
+.list li a {
+   width: 70px !important;
+   text-decoration: none !important;
+   color: blue !important;
+   font-size: 19px !important;
+   font-weight: 600;
+   padding-bottom: 5px;
+   margin-left: 25px;
+} 
+.list {
+   transition: 1s;   
+   width: 100%; 
+   height: 80px !important;
+   position: fixed !important;
+   top:40px !important;
+   background-color: rgb(254, 249, 249) !important;
+   padding-right: 100px;
+   font-weight: bold;
+   font-size: 40px;
+}
+.list li a:hover{
+   cursor: pointer;
+   border-bottom:  black solid 1px; 
+   color:black;
+}
+.list button{
+   padding: 15px 35px;
+   background-color: blue !important;
+   color: white;
+   font-size: 18px;
+   border: none;
+   border-radius: 5px;
+   margin-left: 70px;
+   transition: all 0.2s ease-in-out;
+   margin-bottom: 20px;
+}
+.list button:hover {
+   background-color: rgb(109, 174, 248) !important;
+   color:  rgb(255, 255, 255);
+   cursor: pointer;
+}
+sup{
+   font-size: 15px;
+   color: blue;
+}
+.list i{
+   color: blue;
+}
+.image{
+   background-image:
+   linear-gradient(to bottom, rgba(56, 73, 169, 0.52),  blue),
+   url("css/img/2.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    width:100%;
+    height: 500px;
+}
+.im strong ,.im p {
+    color: white;
+    font-size: 70px;
+    position:absolute;
+    top: 250px;
+    left: 150px;
+}
+.im p {
+   color: white;
+   font-size: 22px;
+   position:absolute;
+   top: 350px;
+   left: 150px;
+}
+.tAbout{
+   float: right;
+    width: 550px;
+    margin-right: 120px;
+    padding-top: 100px;
+}
+.about strong{
+   color: rgb(37, 37, 37);
+   font-size: 34px;
+   line-height: 50px;
+}
+.about p{
+    margin-top: 30px;
+    color: rgb(143, 142, 142);
+    font-size: 19px;
+}
+.about button{
+   padding: 15px 30px;
+   font-size: 19px;
+   color: white;
+   background-color: blue;
+   border: none;
+   margin-top: 40px;
+
+}
+.about button a{
+   text-decoration: none;
+   color: white;
+}
+.about button:hover{
+   background-color: white;
+   color: blue;
+   border:  1px solid blue;
+}
+.about button a:hover{
+   color: blue;
+}
+.list button{
+   background-color: blue;
+}
+.list button a{
+   color: white;
+   text-decoration: none;
+}
+.logo{
+   display: inline;
+}
+.footer{
+   background-image:
+   linear-gradient(to bottom, rgba(6, 12, 54, 0.52),  rgb(1, 1, 52)),
+   url("/css/img/blog-img1.png") ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    width:100%;
+    height: 400px;
+}
+.footer div{
+   display: inline-block;
+   color: white;
+  margin-left: 50px;
+  margin-bottom: 80px;
+  padding: 20px;
+}
+.footer div p{
+   padding: 5px;
+   font-size: 18px;
+}
+.footer div strong{
+   font-size: 20px;
+}
+.footer div  g:hover ,.footer div p:hover {
+   color: blue;
+   cursor: pointer;
+}
+.footer div i{
+   padding-left:10px ;
+}
+.linkResource li {
+   display: inline-block;
+   float: right;
+   margin: 10px 0px 30px 0px;
+}
+.linkResource{
+   margin-right: 150px;
+   margin-bottom: 30px;
+}
+.linkResource li a{
+   color: blue !important;
+   font-size: 17px !important;
+}
+.linkResource li a{
+   width: 80px;
+   text-decoration: none;
+   color:white;
+   font-size: 19px;
+   font-weight:500;
+   padding-bottom: 5px;
+   margin-left: 25px;
+}
+.ququesions{
+   padding-bottom: 100px !important;
+}

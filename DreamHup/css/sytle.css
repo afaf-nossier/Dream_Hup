@@ -1,0 +1,528 @@
+*{
+    padding: 0;
+    margin:0;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navpara {
+    background-image: linear-gradient(to right , rgb(4, 4, 209) , rgb(114, 220, 247));
+    width: 100%;
+    height: 40px;
+}
+.end p{ color: black !important;}
+.navpara p ,.end p{
+    color:white;
+    padding-left: 100px;
+    padding-top:12px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.navpararight{
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    position: absolute;
+    top: 1px;
+    right: 100px; 
+}
+.navpararight p{
+    color: white;
+    font-size: 17px;
+}
+.navpararight p i{
+    padding-right: 10px;
+}
+.navpararight:hover{
+    cursor: pointer;
+} 
+.logo{
+    font-weight: bold;
+    font-size: 40px;
+    max-height: 40px;
+    margin: 30px 130px;
+}
+
+sup{
+    font-size: 15px;
+    color: blue;
+}
+.logo i{
+    color: blue;
+}
+.contact{
+    float: right;
+    position: absolute;
+    top: 80px;
+    right: 50px; 
+}
+.contact div{
+    display: inline-block;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 2px rgb(76, 132, 253)  solid;
+}
+.contact strong{
+    color: blue;
+}
+.contact p{
+    color: rgb(117, 117, 117);
+}
+.home{
+   width: 100%;
+   height: 800px;
+   background-image: linear-gradient(to right ,rgb(0, 72, 255), #19A7CE);
+}
+.list li ,.linkResource li {
+     display: inline-block;
+}
+.linkResource{
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+.linkResource li a{
+    color: blue !important;
+    font-size: 17px !important;
+}
+.list li a , .linkResource li a{
+    width: 80px;
+    text-decoration: none;
+    color:white;
+    font-size: 19px;
+    font-weight:500;
+    padding-bottom: 5px;
+    margin-left: 25px;
+}
+.list{
+    text-align: center;
+    padding-top: 30px;
+    transition: 1s;
+}
+.list li a:hover ,.linkResource li a:hover{
+    cursor: pointer; 
+    color:rgb(150, 149, 149) !important;
+}
+.list button{
+    padding: 15px 35px;
+    background-color: white;
+    color: blue;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 70px;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 20px;
+}
+.list button:hover {
+    background-color: rgb(39, 138, 251);
+    color:  rgb(255, 255, 255);
+    cursor: pointer;
+}
+.list span{
+    font-size:40px;
+    padding: 2px 30px;
+    border :2px solid black;
+    border-radius: 50px;
+    margin-right:300px ;
+}
+.list span:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.button_scroll{
+    background-color: rgb(40, 125, 252) !important;
+    color:  rgb(255, 255, 255) !important;
+}
+.button_scroll:hover{
+    background-color: white !important;
+    color: rgb(0, 26, 255) !important;
+}
+.toscroll{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+
+}
+.toscroll li a{
+    color : blue ;
+}
+.imghome{
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.texthome{
+    color: rgb(240, 238, 238);
+    padding-top: 180px;
+    padding-left: 100px;
+}
+.texthome .add{
+    font-size: 20px;
+}
+.texthome strong{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.texthome p{
+    font-size: 19px ;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.buttons button{
+    padding: 15px 40px;
+    font-size: 18px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+.buttons .btn1{
+    background-color: rgb(243, 243, 243);
+    color: rgb(61, 61, 255);
+    margin-right: 30px;
+}
+.buttons .btn1:hover  ,.Services div button:hover  , .RepairProright button:hover{
+    border: 1px solid white;
+    background-color:rgb(47, 47, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+.buttons .btn2{
+    border: 1px solid white;
+    background-color:rgb(32, 32, 253);
+    color: rgb(255, 255, 255);
+}
+.buttons .btn2:hover {
+    background-color: rgb(243, 243, 243);
+    color: rgb(61, 61, 255);
+    cursor: pointer;
+}
+.totop div{
+     width: 50px;
+     height: 50px;
+    border-radius: 50%;
+    background-color: rgb(30, 119, 235);
+    position: fixed;
+    top: -50px;
+    right:30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.totop div i{
+    color:white;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    font-size: 25px;
+}
+ .totop .show{
+   top: 550px;
+ }
+.s{
+   text-align: center;
+}   
+.s p{
+    color: blue;
+    font-size: 30px;
+    margin-top: 100px ;
+}
+.s strong ,.text strong {
+    font-size: 30px;
+    color: black;
+}
+.Services ,.container ,.text{ text-align: center;}
+.Services div {
+    width: 340px;
+    height: 400px;
+    border: rgb(230, 230, 236) 1px solid;
+    display: inline-block;
+     margin-left: 50px;
+     margin-top: 50px;
+     transition: 0.5s;
+} 
+.Services div:hover{
+    border-radius: 30px;
+    border: blue 1px solid;
+    
+}
+.Services div img{
+     width: 130px;
+     height: 130px;
+     text-align: center;
+    margin: 30px;
+}
+.Services div strong  ,.divs div strong ,.ques_left strong{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+}
+.Services div p{
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(109, 101, 101);
+    
+}
+.Services div button ,.RepairProright button{
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 15px 30px;
+    transition: all 0.2s ease-in-out;
+}
+.RepairPro img{
+    margin-top: 120px;
+    margin-left: 50px;
+    width: 41%;
+    height: 650px;
+}
+.RepairProright {
+    margin-top: 150px;
+    float: right;
+    margin-right: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.RepairProright p ,.text p { 
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 20px;
+}
+.RepairProright strong ,.opinion strong ,.contact_us_form strong{  
+    color: rgb(36, 34, 34);
+    font-size: 30px;
+}
+.quesion div{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: blue;
+    display: inline-block;
+    margin-right: 8px;
+}
+.container div{
+    display: inline-block;
+    margin-top: 150px;
+    margin-right: 100px;
+
+}
+.container div i{
+    font-size: 25px;
+}
+.container div span{
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 10px;
+    border-bottom: solid 2px rgb(2, 0, 12);
+}
+.container div p{
+      font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0px 100px 0px;
+    color:rgb(48, 3, 250);
+}
+.divs div{
+    width: 27%;
+    height: 480px; 
+    background-color: white;
+    display: inline-block;
+    margin: 15PX;
+} 
+.divs div img{
+    width: 85%;
+    height: 200px;
+    margin: 25px;
+    transition:all 1s;
+}
+.divs div img:hover{
+  transform: scale(1.1);
+
+}
+.divs div strong  , .divs div p ,.divs div a{ 
+     padding-left: 30px;
+}
+.divs div p{
+        font-size: 18px;
+        padding: 20px 0px 20px 30px;
+        color: rgb(95, 86, 86);
+}
+.divs div a{
+        font: 30px;
+        font-weight: 500;
+        color: blue;
+        margin-left: 30px;
+        text-decoration: none;
+        transition:all 0.4s;
+}
+.divs div a:hover{
+        background-color: blue;
+        color: white;
+        padding: 12px 30px; 
+}
+.divs div pre{
+    background-color: rgb(230, 228, 250);
+    width: 60px;
+    height: 10px;
+    padding: 10px 20px 20px 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.a q{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.ques_left div {
+    border: rgb(207, 207, 219) solid 1px;
+    width: 44%;
+    height: 80px;
+    display: inline-block;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+ 
+.ques_left div :hover{
+    box-shadow: 5px 10px rgba(212, 212, 238, 0.918);
+    cursor: pointer;
+}
+.ques_left div p{
+    padding: 25px;
+}
+.opinion{
+    background-color: rgb(226, 218, 218);
+    text-align: center;
+    padding: 50px;
+    margin-top: 150px;
+}
+.opinion div{
+    width: 29%;
+    height: 340px;
+    background-color: white;
+    border: #c2cbce solid 1px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 20px;
+    transition: all 1s;
+}
+.opinion div:hover{
+    box-shadow: 0px 0px 10px 5px  rgb(146, 135, 135) ;
+    transform: scale(1.1);
+}
+.opinion div p{
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 30px;
+    color: rgb(109, 102, 102);
+    line-height: 27px;
+}
+.opinion div img{
+    position:relative;
+    top: -30px;
+    left: -100px;
+}
+.opinion div i{ 
+    text-align: left;
+    margin-top: 20px;
+    color: blue;
+}
+pre{
+    color: rgb(0, 0, 12);
+    font-size: 20px;
+    /* padding: 5px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    padding-right: 240px;
+    
+}
+.contact_us {
+    margin-top: 130px;
+}
+.contact_us img{
+    width: 550px;
+    height: 600px;
+    margin-left: 100px;
+}
+.contact_us_form {
+    text-align: left;
+    margin-right: 100px;
+    width: 37%;
+    height: 650px;
+    box-shadow: 0px 0px 10px 5px  rgb(224, 217, 217) ;
+    padding-left: 40px;
+}
+.contact_us_form pre{
+    padding-top: 60px;
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 20px;
+}
+.con_text {
+    color: rgb(126, 126, 126)!important;
+    padding-top: 20px;
+    font-size: 18px;
+}
+form input {
+    padding: 20px;
+    margin-top: 20px;
+    border: rgb(216, 213, 213) 1px solid ;
+    font-size: 15px;
+}
+ 
+input[type=submit]{
+    padding: 18px 40px !important;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: rgb(26, 26, 250);
+
+}
+input:focus{outline: none;}
+.map{
+    margin-top: 200px;
+}
+.footer{
+    background-image:
+    linear-gradient(to bottom, rgba(6, 12, 54, 0.52),  rgb(1, 1, 52)),
+    url("/css/img/blog-img1.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     width:100%;
+     height: 400px;
+}
+.footer div{
+    display: inline-block;
+    color: white;
+   margin-left: 50px;
+   margin-bottom: 80px;
+   padding: 20px;
+}
+.footer div p{
+    padding: 5px;
+    font-size: 18px;
+}
+.footer div strong{
+    font-size: 20px;
+}
+.footer div  g:hover ,.footer div p:hover {
+    color: blue;
+    cursor: pointer;
+}
+.footer div i{
+    padding-left:10px ;
+}
+.linkResource{
+    display: inline ;
+    float: right;
+    text-decoration: none;
+
+}
